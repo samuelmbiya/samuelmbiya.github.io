@@ -1,0 +1,10 @@
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:300 800;font-display:swap;src:url(fonts/montserrat-var.woff2) format('woff2')}
+@font-face{font-family:'Inter';font-style:normal;font-weight:400;font-display:swap;src:url(fonts/inter-400.woff2) format('woff2')}
+@font-face{font-family:'Inter';font-style:normal;font-weight:500;font-display:swap;src:url(fonts/inter-500.woff2) format('woff2')}
+@font-face{font-family:'Inter';font-style:normal;font-weight:600;font-display:swap;src:url(fonts/inter-600.woff2) format('woff2')}
+body{margin:0}
+a:hover{opacity:.8}
+a:focus-visible{outline:3px solid #0A0A0A;outline-offset:3px;box-shadow:0 0 0 3px #FFFFFF}
+.skip{position:absolute;left:-9999px;top:8px;z-index:10;background:#0A0A0A;color:#FFFFFF;padding:12px 20px;font-family:'Montserrat',sans-serif;font-weight:600;text-decoration:none}
+.skip:focus{left:16px}
+img{max-width:100%}
