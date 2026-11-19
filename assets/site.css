@@ -8,3 +8,6 @@ a:focus-visible{outline:3px solid #0A0A0A;outline-offset:3px;box-shadow:0 0 0 3p
 .skip{position:absolute;left:-9999px;top:8px;z-index:10;background:#0A0A0A;color:#FFFFFF;padding:12px 20px;font-family:'Montserrat',sans-serif;font-weight:600;text-decoration:none}
 .skip:focus{left:16px}
 img{max-width:100%}
+html,body{overflow-x:clip}
+h1,h2,h3{overflow-wrap:break-word}
+@media (max-width:600px){h1,h2,h3{hyphens:auto;-webkit-hyphens:auto}}
